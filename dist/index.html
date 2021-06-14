@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href='./css/main.css'>
+    <title>Platine Connect</title>
+</head>
+<body>
+    <div class="left-part">
+        <div class="user-icon">TT</div>
+        <div class="menu">
+            <a href="#" class="current"><i class="fas fa-home fa-2x"></i> Acceuil</a>
+            <a href="#"><i class="fas fa-book fa-2x"></i> Journal</a>
+           <a href="#"><i class="fas fa-cog fa-2x"></i> Settings</a>
+        </div>
+       <div class="logout">
+          <a href="" class='btn-log'>Deconnexion <i class="fas fa-sign-out-alt"></i></a>
+       </div>
+    </div>
+    <div class="right-part">
+        <header>
+            <input type="text">
+            <a href="#">ADMIN <i class="fas fa-user"></i></a>
+        </header>
+        <div class="box-data">
+            <div class="t-data">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Username</th>
+                            <th>Password</th>
+                            <th>Domaine</th>
+                            <th>Serveur</th>
+                            <th>Connexion</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                           <td><input type="text" class="u1" value="ZAMBLE"></td>
+                           <td><input type="text" class="u1" value="Jesusjtm76"></td>
+                           <td><input type="text" class="u1" value="Bana"></td>
+                           <td>
+                               <select class="u1">
+                                   <option >scb-cirds-3</option>
+                                   <option >scb-cirds-4</option>
+                                   <option >scb-cirds-5</option>
+                               </select>
+                           </td>
+                           <td><a href="" class='btn-connect' id='u1'>Connexion</a></td>
+                        </tr>
+                        <tr>
+                           <td><input type="text" class="u2" value="kodjo"></td>
+                           <td><input type="text" class="u2" value="sds"></td>
+                           <td><input type="text" class="u2" value="Bana"></td>
+                           <td>
+                               <select class="u2">
+                                   <option>scb-cirds-3</option>
+                                   <option>scb-cirds-4</option>
+                                   <option>scb-cirds-5</option>
+                               </select>
+                           </td>
+                           <td><a href="" class='btn-connect' id='u2'>Connexion</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    
+</body>
+
+<script>
+    require('./js/renderer.js');
+</script>
+</html>

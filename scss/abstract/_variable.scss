@@ -1,0 +1,35 @@
+$linkColor: #abe9cd;
+$boutonColor: #7beecc;
+
+$mainColor: #63a4ff;
+$secondaryColor: #63a4ff;
+$neutralColor: #fac0c0;
+
+$grayNeutral: #ecf0f3;
+
+/* Utilitty */
+
+%btn-base {
+  display: inline-block;
+  border: none;
+  outline: none;
+  padding: 0.5rem 1.7rem;
+  text-align: center;
+}
+
+.btn-log {
+  @extend %btn-base;
+  background-color: $neutralColor;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+.btn-connect {
+  @extend %btn-base;
+  background-color: $boutonColor;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 700;
+  border-radius: 15px;
+  font-size: 0.8rem;
+}

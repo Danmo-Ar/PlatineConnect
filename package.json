@@ -1,0 +1,26 @@
+{
+  "name": "platinte-connecte",
+  "version": "1.0.0",
+  "description": "Application pour connecter les utilisateur platine Cas scb",
+  "main": "main.js",
+  "scripts": {
+    "watch": "nodemon --exec electron .",
+    "script" : "node-sass -w scss/ -o dist/css/ --recurcive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Danmo-Ar/PlatineConnect.git"
+  },
+  "author": "Ariel Kouadio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Danmo-Ar/PlatineConnect/issues"
+  },
+  "homepage": "https://github.com/Danmo-Ar/PlatineConnect#readme",
+  "devDependencies": {
+    "electron": "^13.1.2"
+  },
+  "dependencies": {
+    "node-sass": "^6.0.0"
+  }
+}
